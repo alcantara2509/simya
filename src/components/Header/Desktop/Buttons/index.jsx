@@ -5,14 +5,16 @@ export function Buttons({ title, handleClick }) {
   return (
     <button
       onClick={handleClick}
-      className={`ml-${
-        title === "linkedin" ? 4 : 8
-      } text-blue-200 hover:text-blue-100`}
+      className={`text-blue-200 hover:text-blue-100`}
     >
-      {title === "instagram" && <img src={Instagram} alt="logo instagram" />}
-      {title === "linkedin" && <img src={Linkedin} alt="logo linkedin" />}
+      {title === "instagram" && (
+        <img src={Instagram} alt="logo instagram" className="ml-8" />
+      )}
+      {title === "linkedin" && (
+        <img src={Linkedin} alt="logo linkedin" className="ml-4" />
+      )}
       {title !== "instagram" && title !== "linkedin" && (
-        <p className="font-medium text-xl">{title}</p>
+        <p className="font-medium text-xl ml-8">{title}</p>
       )}
     </button>
   );
