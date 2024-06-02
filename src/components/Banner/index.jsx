@@ -4,7 +4,7 @@ import ArrowRight from "../../assets/svg/arrow-right.svg";
 export function Banner() {
   return (
     <section className="flex flex-row justify-center mt-10">
-      <div className="w-full max-w-[1400px] flex flex-row items-center justify-between px-20">
+      <div className="w-full max-w-[1400px] flex flex-row items-center justify-between px-10">
         <div>
           <h1 className="text-5xl font-bold text-blue-200">
             Transformando <br />

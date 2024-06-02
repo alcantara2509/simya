@@ -11,12 +11,12 @@ export function Header() {
 
   return (
     <header className="w-full flex justify-center">
-      <div className="w-full flex flex-row items-center justify-between px-20 py-10 max-w-[1400px]">
+      <div className="w-full flex flex-row items-center justify-between px-10 py-10 max-w-[1400px]">
         <img src={Logo} alt="Simya Logo" />
         <DesktopMenu handleClick={handleClick} />
         <HamburgerMenu
           barsColor="#3C617A"
-          closeColor="#FFFFFF"
+          closeColor="black"
           trigger={trigger}
           setTrigger={setTrigger}
           backgroundColor="#3C617A"
@@ -27,12 +27,18 @@ export function Header() {
             flexDirection: "column",
             alignItems: "center",
             width: "100%",
-            paddingBottom: "50px",
+            paddingBottom: "20px",
           }}
         >
-          <button>Home</button>
-          <button>Contact</button>
-          <button>About Us</button>
+          <button className="text-white py-6 w-full hover:bg-white hover:text-blue-200">
+            Home
+          </button>
+          <button className="text-white py-6 w-full hover:bg-white hover:text-blue-200">
+            Contact
+          </button>
+          <button className="text-white py-6 w-full hover:bg-white hover:text-blue-200">
+            About Us
+          </button>
         </HamburgerMenu>
       </div>
     </header>
