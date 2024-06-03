@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/simya/static/css/main.00df5494.css",
-    "main.js": "/simya/static/js/main.15d6a4e9.js",
+    "main.js": "/simya/static/js/main.0f189bb1.js",
     "static/media/Blur.png": "/simya/static/media/Blur.7d1cb4791f6327a23920.png",
     "static/media/BlurLeft.png": "/simya/static/media/BlurLeft.89b8c8ee820c121cea97.png",
     "static/media/carousel-image-5.svg": "/simya/static/media/carousel-image-5.90b86f36e1a4f466b5e151dfc001b2a7.svg",
@@ -29,10 +29,10 @@
     "static/media/success.svg": "/simya/static/media/success.95ef99e1844ddcec92130a05c9c1b58f.svg",
     "static/media/arrow-right.svg": "/simya/static/media/arrow-right.1365df4ba2ee3074672dcec9989224c9.svg",
     "main.00df5494.css.map": "/simya/static/css/main.00df5494.css.map",
-    "main.15d6a4e9.js.map": "/simya/static/js/main.15d6a4e9.js.map"
+    "main.0f189bb1.js.map": "/simya/static/js/main.0f189bb1.js.map"
   },
   "entrypoints": [
     "static/css/main.00df5494.css",
-    "static/js/main.15d6a4e9.js"
+    "static/js/main.0f189bb1.js"
   ]
 }
