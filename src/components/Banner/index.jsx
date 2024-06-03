@@ -17,7 +17,10 @@ export function Banner() {
             transformar situações complexas <br /> em oportunidades de geração
             de valor para <br /> empresas e investidores
           </p>
-          <button className="flex flex-row items-center bg-blue-100 rounded-full py-3 px-6 mt-8 hover:bg-blue-200">
+          <button
+            onClick={() => window.open("https://wa.me/+5531997980033")}
+            className=" flex flex-row items-center bg-blue-100 rounded-full py-3 px-6 mt-8 hover:bg-blue-200"
+          >
             <p className="text-lg font-medium text-white uppercase mr-2">
               fale conosco
             </p>

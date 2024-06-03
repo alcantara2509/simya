@@ -1,5 +1,4 @@
 export function Cards({ texts, image }) {
-  console.log(image);
   return (
     <div className="w-full flex items-center justify-center">
       <div
