@@ -12,7 +12,10 @@ import {
 } from "../../assets/svg";
 export function WhoWeAre() {
   return (
-    <section className="w-full flex items-center justify-center pt-40">
+    <section
+      className="w-full flex items-center justify-center pt-40"
+      id="quemsomos"
+    >
       <img
         src={BGGradient}
         alt="só um gradiente inútil"

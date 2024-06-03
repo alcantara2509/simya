@@ -2,21 +2,19 @@ import { useState } from "react";
 import Logo from "../../assets/images/Logo-Simya_Horizontal-Dark.png";
 import { DesktopMenu } from "./Desktop";
 import { HamburgerMenu } from "react-hamburger-menu-responsive";
+import { HashLink as Link } from "react-router-hash-link";
 
 export function Header() {
   const [trigger, setTrigger] = useState(false);
-  const handleClick = () => {
-    console.log("click");
-  };
 
   return (
     <header className="w-full flex justify-center">
       <div className="w-full flex flex-row items-center justify-between px-10 py-10 max-w-[1400px]">
         <img src={Logo} alt="Simya Logo" />
-        <DesktopMenu handleClick={handleClick} />
+        <DesktopMenu />
         <HamburgerMenu
           barsColor="#3C617A"
-          closeColor="black"
+          closeColor="white"
           trigger={trigger}
           setTrigger={setTrigger}
           backgroundColor="#3C617A"
@@ -30,15 +28,18 @@ export function Header() {
             paddingBottom: "20px",
           }}
         >
-          <button className="text-white py-6 w-full hover:bg-white hover:text-blue-200">
-            Home
-          </button>
-          <button className="text-white py-6 w-full hover:bg-white hover:text-blue-200">
-            Contact
-          </button>
-          <button className="text-white py-6 w-full hover:bg-white hover:text-blue-200">
-            About Us
-          </button>
+          <Link to="#quemsomos" onClick={() => setTrigger(false)}>
+            <div className="text-white py-6 w-full">Quem Somos</div>
+          </Link>
+          <Link to="#special" onClick={() => setTrigger(false)}>
+            <div className="text-white py-6 w-full">Special Situations</div>
+          </Link>
+          <Link to="#occupation" onClick={() => setTrigger(false)}>
+            <div className="text-white py-6 w-full">Nossa Atuação</div>
+          </Link>
+          <Link to="#contact" onClick={() => setTrigger(false)}>
+            <div className="text-white py-6 w-full">Contato</div>
+          </Link>
         </HamburgerMenu>
       </div>
     </header>

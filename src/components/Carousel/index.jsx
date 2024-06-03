@@ -12,6 +12,7 @@ import {
   CarouselImage7,
   CarouselImage8,
 } from "../../assets/svg/carousel";
+import BGGradientLeft from "../../assets/images/BlurLeft.png";
 
 const responsive = {
   desktop: {
@@ -33,7 +34,10 @@ const responsive = {
 
 export function CarouselComponent() {
   return (
-    <div className="w-full flex justify-center items-center mt-40 mb-10">
+    <div
+      className="w-full flex justify-center items-center mt-40 mb-10"
+      id="occupation"
+    >
       <div className="w-full max-w-[1400px] bg-white ">
         <div className="w-full flex items-center justify-center mb-10">
           <h2 className="text-4xl font-bold text-blue-200">Nossa Atuação</h2>
@@ -66,6 +70,11 @@ export function CarouselComponent() {
           <Cards texts={cardTexts.carousel8} image={CarouselImage8} />
         </Carousel>
       </div>
+      <img
+        src={BGGradientLeft}
+        alt="só um gradiente inútil"
+        className="absolute left-0 object-cover"
+      />
     </div>
   );
 }

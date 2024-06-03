@@ -1,6 +1,9 @@
 export function SpecialSituations() {
   return (
-    <section className="w-full flex items-center justify-center pt-40">
+    <section
+      className="w-full flex items-center justify-center pt-40"
+      id="special"
+    >
       <div className="w-full flex flex-col max-w-[1400px] items-center justify-center ">
         <h2 className="text-4xl font-bold text-blue-200">Special Situations</h2>
         <p className="text-lg font-medium text-blue-200 mt-8 text-center max-w-[80%]">

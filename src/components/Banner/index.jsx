@@ -6,13 +6,13 @@ export function Banner() {
     <section className="flex flex-row justify-center mt-10">
       <div className="w-full max-w-[1400px] flex flex-row items-center justify-between px-10">
         <div>
-          <h1 className="text-5xl font-bold text-blue-200">
+          <h1 className="text-3xl md:text-5xl font-bold text-blue-200">
             Transformando <br />
             desafios em
             <br />
             oportunidades
           </h1>
-          <p className="text-lg font-medium text-blue-200 mt-8">
+          <p className="text-sm md:text-lg font-medium text-blue-200 mt-8">
             Somos uma equipe experiente e visionária, <br /> dedicada a
             transformar situações complexas <br /> em oportunidades de geração
             de valor para <br /> empresas e investidores
@@ -24,7 +24,7 @@ export function Banner() {
             <img src={ArrowRight} alt="arrow right" />
           </button>
         </div>
-        <img src={HeroImage} alt="diamond lamp" />
+        <img src={HeroImage} alt="diamond lamp" className="hidden lg:flex" />
       </div>
     </section>
   );

@@ -1,9 +1,12 @@
 export function Form() {
   return (
-    <section className="w-full flex items-center justify-center py-20 ">
-      <div className="w-full max-w-[800px] flex flex-col items-center justify-between px-10 py-10 bg-blue-100 rounded-3xl">
+    <section
+      className="w-full flex items-center justify-center py-20"
+      id="contact"
+    >
+      <div className="w-full max-w-[800px] flex flex-col items-center justify-between px-2 md:px-10 py-10 bg-blue-100 rounded-3xl">
         <div>
-          <h2 className="text-4xl font-bold text-blue-200 mb-10">
+          <h2 className="text-4xl font-bold text-blue-200 mb-10 text-center">
             Formulário de contato
           </h2>
         </div>
