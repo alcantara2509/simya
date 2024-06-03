@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/simya/static/css/main.00df5494.css",
+    "main.js": "/simya/static/js/main.15d6a4e9.js",
+    "static/media/Blur.png": "/simya/static/media/Blur.7d1cb4791f6327a23920.png",
+    "static/media/BlurLeft.png": "/simya/static/media/BlurLeft.89b8c8ee820c121cea97.png",
+    "static/media/carousel-image-5.svg": "/simya/static/media/carousel-image-5.90b86f36e1a4f466b5e151dfc001b2a7.svg",
+    "static/media/carousel-image-1.svg": "/simya/static/media/carousel-image-1.bcc32d67b596eaebcae9ebcace21d32b.svg",
+    "static/media/carousel-image-3.svg": "/simya/static/media/carousel-image-3.7f906c92c22edce6c0ae4a612ccb1199.svg",
+    "static/media/carousel-image-7.svg": "/simya/static/media/carousel-image-7.139617006fe92917ad9cbe6dfbdb6b38.svg",
+    "static/media/carousel-image-6.svg": "/simya/static/media/carousel-image-6.b859311615656164eae254114d08bb28.svg",
+    "static/media/carousel-image-4.svg": "/simya/static/media/carousel-image-4.4aeab8bf4e9e1dfbdca5c3947678ffdd.svg",
+    "static/media/carousel-image-8.svg": "/simya/static/media/carousel-image-8.b5d1c072920cb6024bffbfb37255fcfe.svg",
+    "static/media/carousel-image-2.svg": "/simya/static/media/carousel-image-2.71fc723322239c1809324d4714741f94.svg",
+    "static/media/heroimage.png": "/simya/static/media/heroimage.2cc08263fe72d3a7411e.png",
+    "static/media/whatsapp.svg": "/simya/static/media/whatsapp.2460e3c2b1a6f68c3f04059c15451417.svg",
+    "static/media/revicons.eot": "/simya/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/simya/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/simya/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/lamp.svg": "/simya/static/media/lamp.beb75d9801c306578707049fa6720216.svg",
+    "static/media/strategy.svg": "/simya/static/media/strategy.4c21132067b09febc2b863ce7cba9ec2.svg",
+    "static/media/expertise.svg": "/simya/static/media/expertise.e633578d3fdb6bd2e49abe7ab4c81698.svg",
+    "static/media/multi-team.svg": "/simya/static/media/multi-team.bf80130881d760c7be9591d06e604b68.svg",
+    "static/media/instagram.svg": "/simya/static/media/instagram.2eccb9183a4047822777f32fa917331a.svg",
+    "static/media/security.svg": "/simya/static/media/security.cf9706d863cedef824457d96025cd467.svg",
+    "index.html": "/simya/index.html",
+    "static/media/linkedin.svg": "/simya/static/media/linkedin.77d0c364ccba645e7c3a1a40756cfab9.svg",
+    "static/media/transparency.svg": "/simya/static/media/transparency.edd8fa8299b6fe6081d798106820da09.svg",
+    "static/media/success.svg": "/simya/static/media/success.95ef99e1844ddcec92130a05c9c1b58f.svg",
+    "static/media/arrow-right.svg": "/simya/static/media/arrow-right.1365df4ba2ee3074672dcec9989224c9.svg",
+    "main.00df5494.css.map": "/simya/static/css/main.00df5494.css.map",
+    "main.15d6a4e9.js.map": "/simya/static/js/main.15d6a4e9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.00df5494.css",
+    "static/js/main.15d6a4e9.js"
+  ]
+}
