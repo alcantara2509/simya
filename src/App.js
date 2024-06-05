@@ -20,9 +20,11 @@ function App() {
       <Form />
       <Footer />
       <Link
-        to={"https://wa.me/+5531997980033"}
+        to={
+          "https://wa.me/+5531997980033?text=Olá,%20gostaria%20de%20receber%20mais%20informações"
+        }
         target="_blank"
-        className="fixed right-[40px] bottom-[40px]"
+        className="fixed right-[40px] bottom-[40px] z-10"
       >
         <img src={Whatsapp} alt="whatsapp" width={80} height={80} />
       </Link>

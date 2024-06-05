@@ -1,4 +1,13 @@
+import { useState } from "react";
+
 export function Form() {
+  const [data, setData] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
+  });
+
   return (
     <section
       className="w-full flex items-center justify-center py-20"
@@ -11,22 +20,31 @@ export function Form() {
           </h2>
         </div>
 
-        <form className="w-full flex flex-col items-center justify-center px-10">
+        <form
+          className="w-full flex flex-col items-center justify-center px-10"
+          onSubmit={(e) => {
+            e.preventDefault();
+            window.open(
+              `https://wa.me/+5531997980033?text=*Nome:*%20${data.name}%0A*Email:*%20${data.email}%0A*Telefone:*%20${data.phone}%0A*Mensagem:*%20${data.message}`
+            );
+          }}
+        >
           <div className="w-full">
             <p className="text-lg font-medium text-blue-200">Nome</p>
             <input
               type="text"
               placeholder="João da Silva"
               className="w-full p-3  bg-gray-100 mt-2"
+              onChange={(e) => setData({ ...data, name: e.target.value })}
             />
           </div>
-
           <div className="w-full mt-4">
             <p className="text-lg font-medium text-blue-200">Email</p>
             <input
-              type="text"
-              placeholder="seemail@email.com"
+              type="email"
+              placeholder="seuemail@email.com"
               className="w-full p-3  bg-gray-100 mt-4"
+              onChange={(e) => setData({ ...data, email: e.target.value })}
             />
           </div>
           <div className="w-full mt-4">
@@ -35,6 +53,7 @@ export function Form() {
               type="phone"
               placeholder="(00) 00000-0000"
               className="w-full p-3  bg-gray-100 mt-4"
+              onChange={(e) => setData({ ...data, phone: e.target.value })}
             />
           </div>
           <div className="w-full mt-4">
@@ -44,6 +63,7 @@ export function Form() {
             <textarea
               placeholder="Digite sua mensagem aqui"
               className="w-full p-4  bg-gray-100 mt-4"
+              onChange={(e) => setData({ ...data, message: e.target.value })}
             />
           </div>
           <button

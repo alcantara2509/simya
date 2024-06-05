@@ -18,14 +18,14 @@ export function WhoWeAre() {
     >
       <img
         src={BGGradient}
-        alt="só um gradiente inútil"
+        alt="gradiente"
         className="absolute right-0 object-cover"
       />
       <div className="w-full flex flex-col max-w-[1400px] items-center justify-center ">
         <h2 className="text-4xl font-bold text-blue-200">
           {cardTexts.whoWeAre.title}
         </h2>
-        <p className="text-lg font-medium text-blue-200 mt-8 text-center max-w-[80%]">
+        <p className="text-lg font-medium text-blue-200 mt-8 max-w-[80%]">
           {cardTexts.whoWeAre.description}
         </p>
         <div className="flex flex-row flex-wrap mt-10 items-center justify-center">

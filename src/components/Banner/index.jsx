@@ -18,7 +18,11 @@ export function Banner() {
             de valor para <br /> empresas e investidores
           </p>
           <button
-            onClick={() => window.open("https://wa.me/+5531997980033")}
+            onClick={() =>
+              window.open(
+                "https://wa.me/+5531997980033?text=Olá,%20gostaria%20de%20mais%20informações"
+              )
+            }
             className=" flex flex-row items-center bg-blue-100 rounded-full py-3 px-6 mt-8 hover:bg-blue-200"
           >
             <p className="text-lg font-medium text-white uppercase mr-2">

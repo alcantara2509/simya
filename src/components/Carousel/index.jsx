@@ -46,7 +46,7 @@ export function CarouselComponent() {
           swipeable={false}
           draggable={false}
           responsive={responsive}
-          ssr={false} // means to render carousel on server-side.
+          ssr={false}
           infinite={true}
           autoPlay={false}
           autoPlaySpeed={1000}
@@ -54,8 +54,6 @@ export function CarouselComponent() {
           customTransition="all .5"
           transitionDuration={500}
           containerClass="carousel-container"
-          // removeArrowOnDeviceType={["tablet", "mobile"]}
-          // deviceType={this.props.deviceType}
           dotListClass="custom-dot-list-style"
           showDots={false}
           itemClass="carousel-item-padding-40-px"
@@ -72,7 +70,7 @@ export function CarouselComponent() {
       </div>
       <img
         src={BGGradientLeft}
-        alt="só um gradiente inútil"
+        alt="gradiente"
         className="absolute left-0 object-cover"
       />
     </div>
