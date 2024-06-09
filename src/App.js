@@ -1,6 +1,6 @@
 import "./App.css";
 import { Banner } from "./components/Banner";
-import { CarouselComponent } from "./components/Carousel";
+import { Operation } from "./components/Operation";
 import { Footer } from "./components/Footer";
 import { Form } from "./components/Form";
 import { Header } from "./components/Header";
@@ -16,7 +16,7 @@ function App() {
       <Banner />
       <WhoWeAre />
       <SpecialSituations />
-      <CarouselComponent />
+      <Operation />
       <Form />
       <Footer />
       <Link

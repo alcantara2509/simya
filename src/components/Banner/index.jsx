@@ -1,4 +1,4 @@
-import HeroImage from "../../assets/images/heroimage.png";
+import HeroImage from "../../assets/images/heroimage.svg";
 import ArrowRight from "../../assets/svg/arrow-right.svg";
 
 export function Banner() {
@@ -23,7 +23,7 @@ export function Banner() {
                 "https://wa.me/+5531997980033?text=Olá,%20gostaria%20de%20mais%20informações"
               )
             }
-            className=" flex flex-row items-center bg-blue-100 rounded-full py-3 px-6 mt-8 hover:bg-blue-200"
+            className="z-10 flex flex-row items-center bg-blue-100 rounded-full py-3 px-6 mt-8 hover:bg-blue-200"
           >
             <p className="text-lg font-medium text-white uppercase mr-2">
               fale conosco

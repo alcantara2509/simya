@@ -19,7 +19,7 @@ export function WhoWeAre() {
       <img
         src={BGGradient}
         alt="gradiente"
-        className="absolute right-0 object-cover"
+        className="absolute right-0 object-cover z-[-1]"
       />
       <div className="w-full flex flex-col max-w-[1400px] items-center justify-center ">
         <h2 className="text-4xl font-bold text-blue-200">

@@ -21,7 +21,7 @@ export function Form() {
         </div>
 
         <form
-          className="w-full flex flex-col items-center justify-center px-10"
+          className="w-full flex flex-col items-center justify-center px-10 z-[100]"
           onSubmit={(e) => {
             e.preventDefault();
             window.open(

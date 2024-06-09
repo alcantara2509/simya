@@ -1,10 +1,10 @@
 export function SpecialSituations() {
   return (
     <section
-      className="w-full flex items-center justify-center pt-40"
+      className="w-full flex items-center justify-center py-20 bg-blue-100/15 mt-40"
       id="special"
     >
-      <div className="w-full flex flex-col max-w-[1400px] items-center justify-center ">
+      <div className="w-full flex flex-col max-w-[1400px] items-center justify-center">
         <h2 className="text-4xl font-bold text-blue-200">Special Situations</h2>
         <p className="text-lg font-medium text-blue-200 mt-8 max-w-[80%]">
           O mercado de investimentos tradicional oferece diversas opções, mas
