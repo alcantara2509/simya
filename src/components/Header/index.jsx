@@ -9,7 +9,7 @@ export function Header() {
 
   return (
     <header className="w-full flex justify-center">
-      <div className="w-full flex flex-row items-center justify-between px-10 py-10 max-w-[1400px]">
+      <div className="w-full flex flex-row items-center justify-between px-10 py-10 max-w-[1400px] fixed bg-white z-10">
         <img src={Logo} alt="Simya Logo" />
         <DesktopMenu />
         <HamburgerMenu
@@ -28,18 +28,26 @@ export function Header() {
             paddingBottom: "20px",
           }}
         >
-          <Link to="#quemsomos" onClick={() => setTrigger(false)}>
-            <div className="text-white py-6 w-full">Quem Somos</div>
-          </Link>
-          <Link to="#special" onClick={() => setTrigger(false)}>
-            <div className="text-white py-6 w-full">Special Situations</div>
-          </Link>
-          <Link to="#occupation" onClick={() => setTrigger(false)}>
-            <div className="text-white py-6 w-full">Nossa Atuação</div>
-          </Link>
-          <Link to="#contact" onClick={() => setTrigger(false)}>
-            <div className="text-white py-6 w-full">Contato</div>
-          </Link>
+          <>
+            {trigger && (
+              <>
+                <Link to="#quemsomos" onClick={() => setTrigger(false)}>
+                  <div className="text-white py-6 w-full">Quem Somos</div>
+                </Link>
+                <Link to="#special" onClick={() => setTrigger(false)}>
+                  <div className="text-white py-6 w-full">
+                    Special Situations
+                  </div>
+                </Link>
+                <Link to="#occupation" onClick={() => setTrigger(false)}>
+                  <div className="text-white py-6 w-full">Nossa Atuação</div>
+                </Link>
+                <Link to="#contact" onClick={() => setTrigger(false)}>
+                  <div className="text-white py-6 w-full">Contato</div>
+                </Link>
+              </>
+            )}
+          </>
         </HamburgerMenu>
       </div>
     </header>

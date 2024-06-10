@@ -5,11 +5,13 @@ import Linkedin from "../../assets/svg/linkedin.svg";
 export function Footer() {
   return (
     <footer className="w-full bg-blue-200 flex flex-col items-center justify-center pb-24">
-      <div className="w-full max-w-[1400px] flex flex-row items-end justify-between px-10 py-10">
-        <p className="text-base font-medium text-white">
-          © 2024 Simya Capital. Todos os Direitos Reservados.
-        </p>
-        <div className="flex flex-col items-end">
+      <div className="w-full max-w-[1400px] flex flex-col md:flex-row items-end justify-between px-10 py-10">
+        <div className="w-full">
+          <p className="text-base font-medium text-white">
+            © 2024 Simya Capital. Todos os Direitos Reservados.
+          </p>
+        </div>
+        <div className="flex flex-row-reverse mt-2 md:mt-0 md:flex-col w-full items-end justify-between">
           <div className="flex flex-row">
             <Link
               to={"https://www.instagram.com/simya.capital/"}

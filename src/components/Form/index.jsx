@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import BGGradientLeft from "../../assets/images/BlurLeft.png";
 
 export function Form() {
   const [data, setData] = useState({
@@ -13,6 +14,12 @@ export function Form() {
       className="w-full flex items-center justify-center py-20"
       id="contact"
     >
+      {/*! diminuir height do gradient */}
+      {/* <img
+        src={BGGradientLeft}
+        alt="gradiente"
+        className="absolute left-0 object-cover z-0"
+      /> */}
       <div className="w-full max-w-[800px] flex flex-col items-center justify-between px-2 md:px-10 py-10 bg-blue-100 rounded-3xl">
         <div>
           <h2 className="text-4xl font-bold text-blue-200 mb-10 text-center">
@@ -21,7 +28,7 @@ export function Form() {
         </div>
 
         <form
-          className="w-full flex flex-col items-center justify-center px-10 z-[100]"
+          className="w-full flex flex-col items-center justify-center px-10"
           onSubmit={(e) => {
             e.preventDefault();
             window.open(

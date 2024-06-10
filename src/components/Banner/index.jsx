@@ -3,19 +3,19 @@ import ArrowRight from "../../assets/svg/arrow-right.svg";
 
 export function Banner() {
   return (
-    <section className="flex flex-row justify-center mt-10">
+    <section className="flex flex-row justify-center mt-10 pt-24 z-[999]">
       <div className="w-full max-w-[1400px] flex flex-row items-center justify-between px-10">
         <div>
-          <h1 className="text-3xl md:text-5xl font-bold text-blue-200">
+          <h1 className="text-[42px]/[42px] md:text-5xl font-bold text-blue-200">
             Transformando <br />
             desafios em
             <br />
             oportunidades
           </h1>
-          <p className="text-sm md:text-lg font-medium text-blue-200 mt-8">
-            Somos uma equipe experiente e visionária, <br /> dedicada a
-            transformar situações complexas <br /> em oportunidades de geração
-            de valor para <br /> empresas e investidores
+          <p className="text-lg font-medium text-blue-200 mt-8 max-w-[80%]">
+            Somos uma equipe experiente e visionária, dedicada a transformar
+            situações complexas em oportunidades de geração de valor para
+            empresas e investidores
           </p>
           <button
             onClick={() =>

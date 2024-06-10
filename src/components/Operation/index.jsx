@@ -12,14 +12,14 @@ export function Operation() {
           <h2 className="text-4xl font-bold text-blue-200">Nossa Atuação</h2>
         </div>
         <div className="w-full flex flex-col items-center justify-center">
-          <Items props={itemsTexts.item1} />
-          <Items props={itemsTexts.item2} />
-          <Items props={itemsTexts.item3} />
-          <Items props={itemsTexts.item4} />
-          <Items props={itemsTexts.item5} />
-          <Items props={itemsTexts.item6} />
-          <Items props={itemsTexts.item7} />
-          <Items props={itemsTexts.item8} />
+          <Items title={itemsTexts.item1.title} id={1} />
+          <Items title={itemsTexts.item2.title} id={2} />
+          <Items title={itemsTexts.item3.title} id={3} />
+          <Items title={itemsTexts.item4.title} id={4} />
+          <Items title={itemsTexts.item5.title} id={5} />
+          <Items title={itemsTexts.item6.title} id={6} />
+          <Items title={itemsTexts.item7.title} id={7} />
+          <Items title={itemsTexts.item8.title} id={8} />
         </div>
       </div>
     </div>
