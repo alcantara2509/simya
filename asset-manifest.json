@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/simya/static/css/main.a248873a.css",
-    "main.js": "/simya/static/js/main.31aada8d.js",
+    "main.css": "/simya/static/css/main.b65fb4fd.css",
+    "main.js": "/simya/static/js/main.5c4084f9.js",
     "static/media/Blur.png": "/simya/static/media/Blur.7d1cb4791f6327a23920.png",
     "static/media/heroimage.svg": "/simya/static/media/heroimage.7688747a1171a23d7889c18975645603.svg",
     "static/media/whatsapp.svg": "/simya/static/media/whatsapp.2460e3c2b1a6f68c3f04059c15451417.svg",
@@ -18,11 +18,11 @@
     "static/media/success.svg": "/simya/static/media/success.95ef99e1844ddcec92130a05c9c1b58f.svg",
     "static/media/arrow-right.svg": "/simya/static/media/arrow-right.1365df4ba2ee3074672dcec9989224c9.svg",
     "static/media/arrow-down.svg": "/simya/static/media/arrow-down.96899bf61489179155a899eba3cab971.svg",
-    "main.a248873a.css.map": "/simya/static/css/main.a248873a.css.map",
-    "main.31aada8d.js.map": "/simya/static/js/main.31aada8d.js.map"
+    "main.b65fb4fd.css.map": "/simya/static/css/main.b65fb4fd.css.map",
+    "main.5c4084f9.js.map": "/simya/static/js/main.5c4084f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.a248873a.css",
-    "static/js/main.31aada8d.js"
+    "static/css/main.b65fb4fd.css",
+    "static/js/main.5c4084f9.js"
   ]
 }
