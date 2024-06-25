@@ -8,8 +8,8 @@ export function Header() {
   const [trigger, setTrigger] = useState(false);
 
   return (
-    <header className="w-full flex justify-center">
-      <div className="w-full flex flex-row items-center justify-between px-10 py-10 max-w-[1400px] fixed bg-white z-10">
+    <header className="h-full w-full flex justify-center ">
+      <div className="w-full flex flex-row items-center justify-between px-10 py-10 max-w-[1400px] fixed top-0 bg-white z-10">
         <img src={Logo} alt="Simya Logo" />
         <DesktopMenu />
         <HamburgerMenu
